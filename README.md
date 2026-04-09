@@ -1,5 +1,7 @@
 # AutoBoss
 
+[中文说明](./README.zh-CN.md)
+
 AutoBoss is a closed-source macOS desktop app distributed through GitHub Releases.
 
 This repository is the official download page for:
