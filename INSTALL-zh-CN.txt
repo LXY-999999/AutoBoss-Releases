@@ -1,0 +1,19 @@
+AutoBoss macOS 安装说明
+
+1. 安装时把 AutoBoss.app 拖到 Applications 或任意本地目录。
+2. 首次打开如果提示来源不明，请在“系统设置 -> 隐私与安全性”里允许打开。
+3. 打开 App 后先点“重新检查环境”。
+4. 如果环境未就绪，请确认：
+   - 电脑已安装 Google Chrome
+   - Chrome 至少已经打开一个可见窗口
+   - Chrome 已开启“允许 Apple Events 执行 JavaScript”
+5. 回 App 点“打开 Boss 登录页”。
+6. 在你自己的 Chrome 标签页里完成 Boss 登录，并停在职位列表页、职位详情页或沟通页。
+7. 回 App 点“检查会话”。
+8. 会话通过后，再点“开始自动投递”。
+
+运行日志默认位置：
+~/Library/Application Support/JobClawDesktop/runtime/latest_run.log
+
+投递历史默认位置：
+~/Library/Application Support/JobClawDesktop/runtime/boss_applied_history.json
