@@ -68,14 +68,4 @@ AutoBoss 是一个闭源的 macOS 桌面应用。
 - Apple Silicon Mac 请下载 `arm64`
 - Intel Mac 请下载 `x64`
 
-## 仓库说明
 
-- 这个仓库只用于二进制安装包分发
-- 仓库中包含安装包说明和版本信息
-- 不包含源码
-
-## License
-
-本软件为闭源发布。
-
-详见 [LICENSE.txt](./LICENSE.txt)。
