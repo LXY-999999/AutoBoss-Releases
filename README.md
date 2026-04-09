@@ -1,80 +1,81 @@
 # AutoBoss
 
-[中文说明](./README.zh-CN.md)
+[English](./README.en.md) | [中文详细说明](./README.zh-CN.md)
 
-AutoBoss is a closed-source macOS desktop app distributed through GitHub Releases.
+AutoBoss 是一个闭源的 macOS 桌面应用。
 
-This repository is the official download page for:
-- macOS installer packages
-- installation instructions
-- release notes
+这个仓库是 AutoBoss 的官方下载页，主要提供：
+- macOS 安装包下载
+- 安装与使用说明
+- 版本发布记录
 
-Source code is not published in this repository.
+本仓库不公开源代码。
 
-## Download
+## 下载
 
-Latest version: `v1.0.0`
+当前版本：`v1.0.0`
 
-Choose the installer that matches your Mac:
+请根据你的 Mac 芯片选择安装包：
 
-- [Apple Silicon Download](https://github.com/LXY-999999/AutoBoss-Releases/releases/download/v1.0.0/AutoBoss-1.0.0-arm64.dmg)
-- [Intel Mac Download](https://github.com/LXY-999999/AutoBoss-Releases/releases/download/v1.0.0/AutoBoss-1.0.0-x64.dmg)
-- [View All Releases](https://github.com/LXY-999999/AutoBoss-Releases/releases)
+- [Apple Silicon 版本下载](https://github.com/LXY-999999/AutoBoss/releases/download/v1.0.0/AutoBoss-1.0.0-arm64.dmg)
+- [Intel 版本下载](https://github.com/LXY-999999/AutoBoss/releases/download/v1.0.0/AutoBoss-1.0.0-x64.dmg)
+- [查看所有版本](https://github.com/LXY-999999/AutoBoss/releases)
 
-## Which Version Do I Need
+## 我该下载哪个版本
 
-- `arm64` is for Apple Silicon Macs: M1, M2, M3, and M4
-- `x64` is for Intel-based Macs
+- `arm64`：适用于 Apple Silicon 芯片 Mac，例如 M1、M2、M3、M4
+- `x64`：适用于 Intel 芯片 Mac
 
-Quick check on your Mac:
-- Open `Apple menu > About This Mac`
-- If you see `Apple M1/M2/M3/M4`, download `arm64`
-- If you see `Intel`, download `x64`
+快速判断方法：
+- 打开 `苹果菜单 > 关于本机`
+- 如果看到 `Apple M1/M2/M3/M4`，请选择 `arm64`
+- 如果看到 `Intel`，请选择 `x64`
 
-## Install In 1 Minute
+## 安装步骤
 
-1. Download the correct `.dmg` file.
-2. Open the disk image.
-3. Drag `AutoBoss` into `Applications`.
-4. Open `Applications` and launch `AutoBoss`.
-5. If macOS shows a security warning, go to:
-   `System Settings > Privacy & Security`
-6. Allow the app to run, then open it again.
+1. 下载对应的 `.dmg` 文件
+2. 打开安装包
+3. 将 `AutoBoss` 拖入 `Applications`
+4. 在 `Applications` 中打开 `AutoBoss`
+5. 如果首次启动被 macOS 拦截，请前往：
+   `系统设置 > 隐私与安全性`
+6. 允许应用运行后，再次打开
 
-## First Launch
+## 首次打开说明
 
-On first launch, AutoBoss may ask for permissions required for local automation.
+首次打开时，AutoBoss 可能会请求本地自动化所需的权限。
 
-Typical steps:
-- keep Google Chrome installed and visible
-- follow the in-app environment check
-- grant the required macOS permissions when prompted
-- return to the app and re-check the environment
+通常你需要：
+- 确保 Google Chrome 已安装并可见
+- 按照应用内环境检查逐项完成
+- 在 macOS 中授予所需权限
+- 返回应用重新检查环境
 
-Detailed Chinese installation instructions:
+详细中文安装说明：
 - [INSTALL-zh-CN.txt](./INSTALL-zh-CN.txt)
+- [README.zh-CN.md](./README.zh-CN.md)
 
-## Troubleshooting
+## 常见问题
 
-If the app does not open on macOS:
+如果应用打不开：
 
-1. Open `System Settings > Privacy & Security`
-2. Scroll to the security warning near the bottom
-3. Click the button to allow AutoBoss
-4. Launch the app again
+1. 打开 `系统设置 > 隐私与安全性`
+2. 滚动到页面下方的安全提示
+3. 允许 `AutoBoss` 运行
+4. 然后重新打开应用
 
-If you downloaded the wrong build:
-- Apple Silicon Macs should use `arm64`
-- Intel Macs should use `x64`
+如果下载错了版本：
+- Apple Silicon Mac 请下载 `arm64`
+- Intel Mac 请下载 `x64`
 
-## Repository Scope
+## 仓库说明
 
-- This repository is for binary distribution only
-- It contains installers and documentation
-- It does not contain source code
+- 这个仓库只用于二进制安装包分发
+- 仓库中包含安装包说明和版本信息
+- 不包含源码
 
 ## License
 
-This software is closed-source.
+本软件为闭源发布。
 
-See [LICENSE.txt](./LICENSE.txt) for the distribution terms.
+详见 [LICENSE.txt](./LICENSE.txt)。
